@@ -1,4 +1,5 @@
 import { MinusIcon, PlusIcon, TrashIcon, PencilIcon } from '@heroicons/react/24/outline';
+import Link from 'next/link';
 
 export function IncrementTracker({ id }: { id: string }) {
   return (
